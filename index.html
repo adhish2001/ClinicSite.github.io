@@ -1,0 +1,289 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Diamond Clinic</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <script src ="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>  
+    <script src ="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.38.0/js/tempusdominus-bootstrap-4.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.38.0/css/tempusdominus-bootstrap-4.min.css" crossorigin="anonymous" />
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+        <a
+        href="#"
+        class="navbar-brand mb-0 h1">
+            <img 
+            class="d-inline-block align-top"
+            src="/images/diamond.webp" width="40" height="40">
+        Diamond Clinic
+    </a>
+    <button 
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-targer="#navMenu"
+    class="navbar-toggler"
+    aria-controls="navbarNav"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+    >
+     <span class="navbar-toggler-icon"></span> 
+    </button>
+    <div 
+        class="collapse navbar-collapse" 
+        id="navMenu">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+                <a href="#instructors" class="nav-link">
+                    <h3>
+                        <i class="bi bi-people-fill"></i>
+                    </h3>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#location" class="nav-link">
+                    <h3>
+                        <i class="bi bi-geo-alt-fill"></i>
+                    </h3>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#services" class="nav-link">
+                    <h3>
+                      <i class="bi bi-ui-checks"></i>
+                    </h3>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#Schedule" class="nav-link">
+                    <h3>
+                      <i class="bi bi-calendar-day"></i>
+                    </h3>
+                </a>
+            </li>
+        </ul>
+    </div>
+    </div>
+    </nav>
+    <!-- header-->
+    <section id="header" class="header">
+        <div class="container">
+                <h1>Diamond Clinic</h1>
+                <p>Physiotherapy and General Care Clinic, specializing in Athletes or Fitness Enthusiasts</p>
+    </section>
+    <section id="instructors" class="p-5 bg-dark">
+        <div class="container mt-5">
+            <h2 class="text-center text-white">Our Experts</h2>
+            <p class="lead text-center text-white mb5">
+                We have a skilled and highly experienced team that have worked with athletes from the olympic level to casual enthusiasts
+            </p>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" class="rounded-circle mb-3" alt=""/>
+                            <h3 class="card title">Giorno Giovona</h3>
+                            <p class="card-text">Over 6 years of experience, phD in Human Nutrition from UBC. Very involved in catering
+                                to the client's speciic needs and goals.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/40.jpg" class="rounded-circle mb-3" alt=""/>
+                            <h3 class="card title">Nadia Ali</h3>
+                            <p class="card-text">Over 4 years of experience, phD in Medicine from UBC. Skilled and professional, 
+                                acquiring the latest resources for clients.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/92.jpg" class="rounded-circle mb-3" alt=""/>
+                            <h3 class="card title">Simu Liu</h3>
+                            <p class="card-text">Over 11 years of experience, phD in Physiotherapy from University of Vermont. Extensive
+                                experience with athletes.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="location" class="p-5 bg-primary">
+        <div class="container-fluid mt-5">
+            <h2 class="text-center text-white">
+                Here's our location
+            </h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2919.8438651394063!2d-81.22792328460903!3d42.9604946049634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef0fa90d42453%3A0x1e8dae5de3acaae!2sVictoria%20Hospital!5e0!3m2!1sen!2sca!4v1624818999847!5m2!1sen!2sca"
+             width=100% height="450" style="border:0;" allowfullscreen="" loading="lazy" display:block;></iframe>
+        </div>
+    </section>
+    <section id="services" class="p-5 bg-dark">
+        <div class="container mt-5">
+            <h2 class="text-center text-white">Services</h2>
+            <div class="ListServices">
+                <h6 class="text-left text-white">Popular General Services</h2>
+            <table class="table table-dark table-hover">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Type</th>
+                    <th scope="col">Cost</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Blood Test</td>
+                    <td>20$</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>DNA Test</td>
+                    <td>100$</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Body Composition Test</td>
+                    <td>40$</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Meal and Nutrition Plan</td>
+                    <td>30$ and above (depends on weeks of service)</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Complete Competitve Goal Assistance Program</td>
+                    <td>200$ and above(depends on weeks of service)</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h6 class="text-left text-white">Popular Physiotherapy Services</h2>
+                <table class="table table-dark table-hover">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Type</th>
+                        <th scope="col">Cost</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Custom Kneebrace</td>
+                        <td>150$</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Preventive Care</td>
+                        <td>60$ and above(depends on weeks)</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Chiropracter Session</td>
+                        <td>50$</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>Vestibular Rehab</td>
+                        <td>30$ and above (depends on weeks of service)</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>Muscle Tear/ACL tear recovery program</td>
+                        <td>400$ and above(depends on weeks of service)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </section>
+    <section id="Schedule" class="p-5 bg-dark">
+        <div class="container mt-5">
+            <h2 class="text-center text-white">Schedule a Consulting Appointment</h2>
+            <form class="row g-3 bg-primary mt-3 mb-3 text-white">
+                <div class="col-md-6">
+                    <label for="firstname" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="firstname" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="lastname" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="lastname" required>
+                </div>
+                <div class="col-md-8">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="phone" class="form-label">Phone Number</label>
+                    <input type="tel" class="form-control" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required>
+                </div>
+                <p>Select days that you prefer, if none are selected we will assume any day</p>
+                <div class="col-md-12">
+                    <label for="monday" class="form-label">Monday</label> 
+                    <input class="form-check-input" type="checkbox" value="" id= "monday">
+                </div>
+                <div class="col-md-12">
+                    <label for="tuesday" class="form-label">Tuesday</label> 
+                    <input class="form-check-input" type="checkbox" value="" id= "tuesday">
+                </div>
+                <div class="col-md-12">
+                    <label for="wednesday" class="form-label">Wednesday</label> 
+                    <input class="form-check-input" type="checkbox" value="" id= "wednesday">
+                </div>
+                <div class="col-md-12">
+                    <label for="thursday" class="form-label">Thursday</label> 
+                    <input class="form-check-input" type="checkbox" value="" id= "thursday">
+                </div>
+                <div class="col-md-12">
+                    <label for="friday" class="form-label">Friday</label> 
+                    <input class="form-check-input" type="checkbox" value="" id= "friday">
+                </div>
+                <p>Select the time slot that you prefer, if none are selected we will assume any slot</p> 
+                <div class="col-md-12">
+                    <label for="morning" class="form-label">Morning(8am-12pm)</label> 
+                    <input class="form-check-input" type="checkbox" value="" id= "morning">
+                </div>
+                <div class="col-md-12">
+                    <label for="noon" class="form-label">Noon(12pm-4pm)</label> 
+                    <input class="form-check-input" type="checkbox" value="" id= "noon">
+                </div>
+                <div class="col-md-12">
+                    <label for="evening" class="form-label">Evening(4pm-8pm)</label> 
+                    <input class="form-check-input" type="checkbox" value="" id= "evening">
+                </div>
+                <div class="col-md-12">
+                    <label for="phone" class="form-label">Credit Card Number($100 charged as deposit)</label>
+                    <input type="tel" class="form-control" id="phone" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}" placeholder="1234-4567-8901-2345" required>
+                </div> 
+                <div class="col-md-12">
+                    <laber for="comments" class="form-label">Write about your concerns, use table numbering for convenience</laber>
+                    <textarea class="form-control" id="comments" rows="5" required></textarea>
+                </div>
+                <div class="col-md-12">
+                    <button type="submit" class="btn btn-info">Submit</button>
+                </div>
+                <p>If you've recieved no errors, the form has been submitted, thank you</p>
+            </form>
+        </div>
+    </section>
+    <section id="footer" class="p-5 bg-light">
+        <p>Site designed by Terry McGinnis</p>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+    crossorigin="anonymous">
+</script>
+</body>
+</html>
